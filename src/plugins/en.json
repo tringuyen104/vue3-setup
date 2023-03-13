@@ -1,0 +1,10 @@
+{
+    "age": "Age",
+    "about": "About",
+    "works": "Works",
+    "softwareEngineer": "Software engineer",
+    "languages": "language{0}",
+    "education": "Education",
+    "skills": "Skills",
+    "experience": "Experiences"
+}
