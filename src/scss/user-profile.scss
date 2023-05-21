@@ -1,6 +1,27 @@
 .user-profile {
     .user-info {
-        .user-avatar {
+        // padding: 10px;
+        // border-radius: $space20;
+        // border: 1px solid $system-black;
+
+        div {
+            padding: 10px;
         }
+        .user-avatar {
+            img {
+                border-radius: 20px;
+            }
+        }
+    }
+
+    .user-desctiption {
+        
+    }
+
+    .user-experience {
+        // margin-left: $space20;
+        padding: $space10;
+        // border: 1px solid $system-black;
+        // border-radius: 20px;
     }
 }

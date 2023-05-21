@@ -12,4 +12,17 @@ export default defineConfig({
             '~bootstrap': path.resolve(__dirname, 'node_modules/bootstrap'),
         },
     },
+    css: {
+        preprocessorOptions: {
+            scss: {
+                additionalData: `
+              @import "./src/scss/variable.scss";
+              @import "./src/scss/styles.scss";
+            `,
+            },
+        },
+    },
+    define: {
+      __API: JSON.stringify('http://localhost:8888/')
+    }
 });
