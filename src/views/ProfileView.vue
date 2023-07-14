@@ -3,7 +3,7 @@ import { defineComponent, computed } from "vue";
 import User from "../objects/User";
 import UserProfile from "../components/UserProfile.vue";
 import Work from "../objects/Work";
-import {getUserProfileById } from '../api/api.user.profile'
+import { getUserProfileById } from '../api/api-user-profile'
 
 const getUsers = async (): Promise<User[]> => {
   const user = (await getUserProfileById('bce462e6-d3dd-456c-8924-183608c0f431'))?.data;
@@ -39,3 +39,4 @@ export default defineComponent({
   </template>
 </template>
 <style lang="scss"></style>
+../api/api.userProfile../api/api-user-profile

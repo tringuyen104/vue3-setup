@@ -95,7 +95,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-sm p-3">
+        <div class="col-sm p-3 min-vh-100">
           <div class="w-75 site-content-position">
             <RouterView />
           </div>

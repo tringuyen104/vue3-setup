@@ -2,7 +2,7 @@
   "name": "vue-app",
   "version": "0.0.0",
   "scripts": {
-    "start": "vite --port 5001",
+    "dev": "vite --port 5001",
     "build": "vite build",
     "preview": "vite preview --port 5050",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.tsx --fix --ignore-path .gitignore"

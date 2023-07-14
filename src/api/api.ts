@@ -6,7 +6,10 @@ const callApi = (request) => {
         method: request.method,
         url: `${baseURL}${request.url}`,
         headers: {
-            'Content-Type': 'application/json'
+            'Content-Type': 'application/json',
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept, Authorization, X-CSRF-Token",
+            "Access-Control-Allow-Methods": "POST, GET, OPTIONS, PUT, DELETE",
         }
     }
     if(request.data){
